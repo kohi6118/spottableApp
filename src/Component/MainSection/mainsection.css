@@ -1,0 +1,43 @@
+.main-section{
+    width:95%;
+    height: auto;
+    min-height:80vh;
+    border:1px solid rgb(224, 227, 231);
+    background-color: white;
+    border-radius: 10px;
+    margin:5px;
+    padding:5px;
+}
+.main-section > .heading{
+    text-align: left;
+    font-size:18px;
+    margin:10px;
+}
+.main-section-content{
+    position: relative;
+    top:0;
+    left:0;
+}
+
+@keyframes clicked {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+ }
+@media screen and (min-width:760px){
+    .main-section{
+        margin:10px;
+        padding:10px;
+        width:90%;
+    }
+       .main-section > .heading {
+           font-size:24px;
+       }
+}
+   
